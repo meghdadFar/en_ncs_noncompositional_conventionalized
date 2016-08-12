@@ -63,7 +63,7 @@ Acknowledgments:
 
 We provide a data set of English noun compounds which are annotated with four expert judgments on non-compositionality and conventionalization. The compounds were extracted from Wikipedia, which was cleaned and then POS-tagged by Stanford POS-tagger. 
 We conducted a manual assessment of the automatically generated data and removed wrongly-tagged instances, infrequent instances, and other kinds of discrepancies; however, we believe that about 5% of the data may still be wrongly POS-tagged or occur with a very low frequency. This is due to the large size of the set, human error, and a workflow consisting of various procedures performed by different (and often not readily compatible) tools and programs. 
-The user of the data should be aware of the presence of a small number of dubious instances. Nevertheless almost certainly these few instances (about 5% of the data) are among the compounds which are judged by the majority as neither non-compositional nor conventionalized (i.e., annotated with 0). 
+The user of the data should be aware of the presence of a (small number of) discrepant instances. Nevertheless, almost certainly these instances (that constitute about 5% of the data) are among the compounds which are judged by the majority as neither non-compositional nor conventionalized (i.e., annotated with 0s). 
 
 ======================================================================================
 
