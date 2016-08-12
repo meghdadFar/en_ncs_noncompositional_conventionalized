@@ -4,7 +4,7 @@ non-compositionality and conventionalization.
 
 ======================================================================================
 
-This folder consists of the following files: conv-judgments.csv, noncomp-judgments.csv, 
+This repository consists of the following files: conv-judgments.csv, noncomp-judgments.csv, 
 README and license. Below is the description of these folders:
  
 
@@ -31,6 +31,7 @@ noncomp-judgments.csv @ line 68: board game 0 1 0 0
 For more details please refer to our article: "A Multiword Expression Data Set: Annotating 
 Non-Compositionality and Conventionalization for English Noun Compounds"
 
+
 ======================================================================================
 
 Creators:
@@ -44,7 +45,7 @@ Joakim Nivre: joakim.nivre@lingfil.uu.se
 ======================================================================================
 
 
-You can cite this data set at:
+You can cite this data set under:
 
 
 @inproceedings{farahmandSmithNivre2015data,
@@ -63,6 +64,10 @@ Acknowledgments:
 We provide a data set of English noun compounds which are annotated with four expert judgments on non-compositionality and conventionalization. The compounds were extracted from Wikipedia, which was cleaned and then POS-tagged by Stanford POS-tagger. 
 We conducted a manual assessment of the automatically generated data and removed wrongly-tagged instances, infrequent instances, and other kinds of discrepancies; however, we believe that about 5% of the data may still be wrongly POS-tagged or occur with a very low frequency. This is due to the large size of the set, human error, and a workflow consisting of various procedures performed by different (and often not readily compatible) tools and programs. 
 The user of the data should be aware of the presence of a small number of dubious instances. Nevertheless almost certainly these few instances (about 5% of the data) are among the compounds which are judged by the majority as neither non-compositional nor conventionalized (i.e., annotated with 0). 
+
+======================================================================================
+
+License: 
 
 This data set is created by Meghdad Farahmand, Aaron Smith and Joakim Nivre,
 used under CC-BY SA 3.0 (http://creativecommons.org/licenses/by/3.0/).
