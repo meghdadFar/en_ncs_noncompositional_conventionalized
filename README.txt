@@ -4,18 +4,22 @@ non-compositionality and conventionalization.
 
 ======================================================================================
 
-This repository consists of the following files: conv-judgments.csv, noncomp-judgments.csv, 
-README and license. Below is the description of these folders:
+This repository consists of the following files: 
+judgments/conv-judgments.csv 
+judgments/noncomp-judgments.csv
+README
+
+Below is the description of these files:
  
 
-(1) conv-judgments.csv: Contains 1042 English noun compounds and 4 conventionalization 
+(1) judgments/conv-judgments.csv: Contains 1042 English noun compounds and 4 conventionalization 
 judgments for each compound. Conventionalization judgments are of three types:
 
  1: conventionalized 
  0: non-conventionalized
  x: conventionalized due to non-compositionality 
 
-(2) noncomp-judgments.csv: Contains the same 1042 English noun compounds and 4 non-compositionality 
+(2) judgments/noncomp-judgments.csv: Contains the same 1042 English noun compounds and 4 non-compositionality 
 judgments for each compound. Non-compositionality judgments are of two types:
 
  1: non-compositional
