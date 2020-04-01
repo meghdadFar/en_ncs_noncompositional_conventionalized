@@ -36,15 +36,11 @@ Aaron Smith: aaron.smith@lingfil.uu.se
 Joakim Nivre: joakim.nivre@lingfil.uu.se
 
 
-
-
-
-
-## Citation
+# Citation
 
 You can cite this dataset under:
 
-```json
+```
 @inproceedings{farahmandSmithNivre2015data,
 	Author = {Farahmand, Meghdad and Smith, Aaron and Nivre, Joakim},
 	Booktitle = {Proceedings of the 11th Workshop on Multiword Expressions (MWE-NAACL 2015)},
@@ -55,15 +51,16 @@ You can cite this dataset under:
 	Year = {2015}}
 ```
 
-# Acknowledgments: 
+# Acknowledgments
 
-We provide a dataset of English noun compounds which are annotated with four expert judgments on non-compositionality and conventionalization. The compounds were extracted from Wikipedia, which was cleaned and then POS-tagged by Stanford POS-tagger. 
+We provide a dataset of English noun compounds which are annotated with four expert judgments on non-compositionality and conventionalization. The compounds were extracted from Wikipedia, which was cleaned and then POS-tagged by Stanford POS-tagger.
+
 We conducted a manual assessment of the automatically generated data and removed wrongly-tagged instances, infrequent instances, and other kinds of discrepancies; however, we believe that about 5% of the data may still be wrongly POS-tagged or occur with a very low frequency. This is due to the large size of the set, human error, and a workflow consisting of various procedures performed by different (and often not readily compatible) tools and programs. 
+
 The user of the data should be aware of the presence of a (small number of) discrepant instances. Nevertheless, almost certainly these instances (that constitute about 5% of the data) are among the compounds which are judged by the majority as neither non-compositional nor conventionalized (i.e., annotated with 0s). 
 
-======================================================================================
 
-License: 
+# License
 
 This dataset is created by Meghdad Farahmand, Aaron Smith and Joakim Nivre,
 used under CC-BY SA 3.0 (http://creativecommons.org/licenses/by/3.0/).
