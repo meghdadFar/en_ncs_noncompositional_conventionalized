@@ -1,6 +1,9 @@
 
 # Description
 
+[![HitCount](http://hits.dwyl.com/meghdadFar/en_ncs_noncompositional_conventionalized.svg)](http://hits.dwyl.com/meghdadFar/en_ncs_noncompositional_conventionalized)
+
+
 This is a dataset of `1042` English noun compounds that are annotated with expert judgments for their _semantic non-compositionality_ and _conventionalization (i.e. statistical idiosyncrasy)_. For more details, see the corresponding paper: [A Multiword Expression Dataset: Annotating Non-Compositionality and Conventionalization for English Noun Compounds](https://www.aclweb.org/anthology/W15-0904/)
 
 The dataset is presented in the form of the following files in this repository:
@@ -64,4 +67,3 @@ The user of the data should be aware of the presence of a (small number of) disc
 
 This dataset is created by Meghdad Farahmand, Aaron Smith and Joakim Nivre,
 used under CC-BY SA 3.0 (http://creativecommons.org/licenses/by/3.0/).
-
